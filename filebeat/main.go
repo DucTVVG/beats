@@ -20,6 +20,8 @@ package main
 import (
 	"os"
 
+	_ "github.com/raboof/beats-output-http/http"
+	
 	"github.com/elastic/beats/filebeat/cmd"
 )
 
